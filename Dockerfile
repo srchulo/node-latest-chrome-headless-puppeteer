@@ -1,6 +1,6 @@
-# Original dockerfile from https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+# Original dockerfile from https://github.com/cronobo/node-chrome-headless-puppeteer/blob/master/Dockerfile
 
-FROM node:carbon
+FROM node:latest
 
 # See https://crbug.com/795759
 RUN apt-get update && apt-get install -yq libgconf-2-4
